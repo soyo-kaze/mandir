@@ -1,0 +1,43 @@
+@import "fonts.css";
+html,
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#upbtn{
+	background-color: #ff9933;
+	color: white;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+#upbtn:hover{
+	background-color: #ff7933;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.black{
+	background: transparent;
+	/*height: 70px;*/
+	transition-duration: 0.5s;
+	font-size: 18px;
+	font-family: google;
+	
+}
+.cover{
+	background: url("img/cover.jpg")center center no-repeat;
+	background-attachment: fixed; 
+	height: 500px;
+}
+.other{
+	background: url("img/Titanium.jpg");
+	height: 1000px;
+}

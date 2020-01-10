@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+	<style>
+		.count p {
+			text-align: center;
+			font-size: 60px;
+			margin-top: 0px;
+		}
+	</style>
+	<head>
+		<title>Mandir</title>
+		<link rel="shortcut icon" href="icon/diya.png" sizes="100x100" /> <!-- mandir Logo -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<script src="topbtn.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					var scroll = $(window).scrollTop();
+					if (scroll > 300) {
+						$(".black").css("background" , "#ff9933");
+						$(".black").css("font-size" , "15px");
+					}
+
+					else{
+						$(".black").css("background" , "transparent");
+						$(".black").css("font-size" , "18px");
+						
+						
+					}
+				})
+			})</script>
+
+	</head>
+	<button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
+	<body data-spy="scroll" data-target="#nav" data-offset="0">
+		<!-- NavBar github-->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" >
+			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="icon/diya.png"  height="24" style="padding-left: 15px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<!--dropdown menu at far right when opened in mobile-->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="row" style="width: 100%">
+				<div class="col-4 collapse navbar-collapse iconnav" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto" >
+					</ul>
+				</div>	
+				<div class="col-8 collapse navbar-collapse topnav" id="navbarSupportedContent">
+					<!-- Links -->
+					<ul class="navbar-nav  mr-auto" >
+						<li class="nav-item">
+							<a class="nav-link" href="">HOME <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="">ABOUT US</a> 
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="" style="color: black">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">CONTACT US</a>
+						</li>
+					</ul> 
+				</div>
+			</div>
+		</nav>
+		
+		<div class="cover"></div>
+		<div class="other"></div>
+	</body>
+</html>
