@@ -35,15 +35,17 @@
 					else{
 						$(".black").css("background" , "transparent");
 						$(".black").css("font-size" , "18px");
-						
-						
+
+
 					}
 				})
 			})</script>
 
 	</head>
 	<button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
-	<body data-spy="scroll" data-target="#nav" data-offset="0">
+	<body data-spy="scroll" data-target="#nav" data-offset="0" onload="funck()">
+
+		<div id="load"></div>
 		<!-- NavBar github-->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" >
 			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="icon/diya.png"  height="24" style="padding-left: 15px;"></a>
@@ -67,7 +69,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="" style="color: black">GALLERY</a>
+							<a class="nav-link" href="">GALLERY</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="">CONTACT US</a>
@@ -76,8 +78,15 @@
 				</div>
 			</div>
 		</nav>
-		
+
 		<div class="cover"></div>
 		<div class="other"></div>
+
+		<script>
+			var pre = document.getElementById('load');
+			function funck(){
+				pre.style.display = 'none';
+			}
+		</script>
 	</body>
 </html>
