@@ -50,4 +50,5 @@ img {
 	background:#fff url("icon/25.gif")center center no-repeat;
 	z-index: 9999;
 	display: block;
+	transition-duration: 1s;
 }
