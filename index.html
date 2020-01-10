@@ -29,13 +29,18 @@
 					var scroll = $(window).scrollTop();
 					if (scroll > 300) {
 						$(".black").css("background" , "#ff9933");
-						$(".black").css("font-size" , "15px");
+						$(".black").css("font-size" , "20px");
+						$("#nav li a").css("color" , "black");
+						$("#nav li a:hover").css("color" , "grey");
+						$(".black img").css("height" , "35px");
 					}
 
 					else{
 						$(".black").css("background" , "transparent");
-						$(".black").css("font-size" , "18px");
-
+						$(".black").css("font-size" , "23px");
+						$("#nav li a").css("color" , "whitesmoke");
+						$("#nav li a:hover").css("color" , "grey");
+						$(".black img").css("height" , "50px");
 
 					}
 				})

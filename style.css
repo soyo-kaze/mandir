@@ -28,9 +28,13 @@ img {
 	background: transparent;
 	/*height: 70px;*/
 	transition-duration: 0.5s;
-	font-size: 18px;
+	font-size: 23px;
 	font-family: google;
 	
+}
+.black img{
+	height: 50px;
+	transition-duration: 0.5s;
 }
 .cover{
 	background: url("img/cov.gif")center center no-repeat;
@@ -52,4 +56,12 @@ img {
 	display: block;
 	transition-duration: 1s;
 	transition-delay: 1s;
+}
+#nav li a{
+	color: whitesmoke;
+	font-family: india;
+	padding-left: 20px;
+}
+#nav li a:hover{
+	color: grey;
 }
