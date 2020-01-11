@@ -65,3 +65,41 @@ img {
 #nav li a:hover{
 	color: grey;
 }
+
+.live{
+	background: transparent;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	
+}
+
+hr.styleline { 
+	border: 0; 
+	height: 2px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #ff9933, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #ff9933, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #ff9933, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0,#ff9933, #f0f0f0);
+}
+
+hr.styleli { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0,rgb(0,0,0), #f0f0f0);
+}
+
+.about{
+	background: url("img/monk.jpg")center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	
+}
+
+.wel{
+	height: 200px;
+}
