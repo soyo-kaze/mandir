@@ -28,7 +28,7 @@
 				$(window).scroll(function(){
 					var scroll = $(window).scrollTop();
 					if (scroll > 300) {
-						$(".black").css("background" , "#ff9933");
+						$(".black").css("background" , "#ff7933");
 						$(".black").css("font-size" , "20px");
 						$("#nav li a").css("color" , "black");
 						$("#nav li a:hover").css("color" , "grey");
@@ -37,7 +37,7 @@
 
 					else{
 						$(".black").css("background" , "transparent");
-						$(".black").css("font-size" , "23px");
+						$(".black").css("font-size" , "28px");
 						$("#nav li a").css("color" , "whitesmoke");
 						$("#nav li a:hover").css("color" , "grey");
 						$(".black img").css("height" , "50px");
@@ -84,14 +84,18 @@
 			</div>
 		</nav>
 
-		<div class="cover"></div>
-		<section class="">
-			<div class="container" style="background: whitesmoke">
+		<section class="cover">
+			<div class="cover-caption text-center">
+				<p style="text-shadow: rgb(0, 0, 0) 1px 2px 5px;">||:<x style="font-family: sansk">स्वागतम</x>:||<p>
+			</div>
+		</section>
+		<section  style="background: whitesmoke">
+			<div class="container">
 				<div class="row no-gutters live">
 					<div class="col-8 text-center"> 
 						<h1 style="font-family: india;margin:0"><x style="color: red;">LIVE</x> here!! </h1> 
 					</div>
-					<div class="col "><button class="btn btn-danger" style="font-family: google;width:80px;background: #ff5933">LIVE</button></div>
+					<div class="col "><button class="btn btn-danger liv" >LIVE</button></div>
 				</div>
 			</div>
 		</section>
@@ -139,9 +143,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md text-center" style="padding: 0">					
-					<h2 style="font-family: india;background: ; height: 100%;color: #ff5933"> <hr class="styleline" style="width: 70%">NEWS<hr class="styleline" style="width: 70%"></h2>
+				<div class="col-md text-center  news" style="padding: 0">				
+					<h2 style="font-family: india;background: ; color: #ff5933"> <hr class="styleline" style="width: 70%">NEWS<hr class="styleline" style="width: 70%;"></h2> <br>
+					<ol style="font-size: 20px;font-family: google"><hr style="width: 80%">
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<hr style="width: 80%"></li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<hr style="width: 80%"></li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<hr style="width: 80%"></li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<hr style="width: 80%"></li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<hr style="width: 80%"></li>
 
+					</ol>
 				</div>
 			</div>
 		</div>
@@ -163,8 +174,8 @@
 		<script>
 			var pre = document.getElementById('load');
 			function funck(){
-				pre.style.display = 'none';
+				pre.style.display = 'none	';
 			}
 		</script>
-	</body>
+	</body> 
 </html>
