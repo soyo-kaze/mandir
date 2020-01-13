@@ -50,7 +50,7 @@ img {
 	transition-duration: 0.5s;
 }
 .cover{
-	background: url("img/om.jpg")center center no-repeat;
+	background: url("img/cov.gif")center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed; 
 	height: 750px;
