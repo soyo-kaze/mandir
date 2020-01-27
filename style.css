@@ -126,7 +126,6 @@ hr.styleli {
 
 .news{
 	background: url(icon/diyaW.jpg)center center no-repeat;
-	
 	background-size: cover;
 }
 
@@ -139,7 +138,7 @@ hr.styleli {
 .liv:hover{
 	font-size: 20px;
 	width: 90px;
-		transition:0.5;
+	transition:0.5;
 }	
 
 .speaker-img {
@@ -153,4 +152,59 @@ hr.styleli {
 .pandit{
 	display: flex;
 	align-items: center;
+}
+#about {
+	background-color: black;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
+	cursor:pointer;
+}
+
+#about h2{
+	font-family: india;
+}
+#about h3{
+	font-family: india;
+}
+#about p{
+	font-family: google;
+}
+
+#about:hover {
+	background-color: #ff5933/*rgba(13, 20, 41, 1)*/;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
+}
+
+footer h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+  	font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+footer a {
+	font-family: Rubik,Arial,sans-serif;
+  	color: #818494;
+	font-size: 1rem;
+    overflow-x: hidden;
+  	font-weight: 400; 	
+  	text-decoration: none;
+  	background-color: transparent;
+}
+
+footer a:hover {
+  color: #ff5933;
+  text-decoration: none;
+}
+
+footer {
+  background: #ebf4fa;
 }
