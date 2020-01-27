@@ -59,7 +59,7 @@ img {
 }
 .cover-caption{
 	width: 100%;
-	font-size: 80px;
+	font-size: 12vw;
 	color: #ff5933;
 	
 }
@@ -125,7 +125,7 @@ hr.styleli {
 }
 
 .news{
-	background: url(icon/diyaW.png)center center no-repeat;
+	background: url(icon/diyaW.jpg)center center no-repeat;
 	
 	background-size: cover;
 }
@@ -141,3 +141,16 @@ hr.styleli {
 	width: 90px;
 		transition:0.5;
 }	
+
+.speaker-img {
+  	width: 150px;
+  	height: 150px;
+  	border-radius: 50%;
+  	margin: 0 auto;
+	color: white;
+}
+
+.pandit{
+	display: flex;
+	align-items: center;
+}
