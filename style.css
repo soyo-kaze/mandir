@@ -29,6 +29,7 @@ img {
 	bottom: 20px;
 	right: 20px;
 	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	z-index: 9999;
 }
 #upbtn:hover{
 	background-color: #ff7933;
@@ -201,10 +202,11 @@ footer a {
 }
 
 footer a:hover {
-  color: #ff5933;
-  text-decoration: none;
+	color: #ff5933;
+  	text-decoration: none;
 }
 
 footer {
-  background: #ebf4fa;
+  	background: #ebf4fa;
+	
 }
