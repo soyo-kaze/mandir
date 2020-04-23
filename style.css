@@ -132,14 +132,14 @@ hr.styleli {
 
 .liv{
 	font-family: google;
-	width:50px;
+	width:80px;
 	height: 100%;
 	background: #ff5933;
 	transition: 0.5s;
 }
 .liv:hover{
 	font-size: 20px;
-	width: 100px;
+	width: 90px;
 	height: 100%;
 	transition:0.5;
 }	
@@ -232,4 +232,17 @@ footer {
 }
 .y{
 	width: 100%;
+}
+.galb{
+	font-family: google;
+	width:80px;
+	height: 100%;
+	background: #ff5933;
+	transition: 0.5s;
+}
+.galb:hover{
+	font-size: 20px;
+	width: 90px;
+	height: 100%;
+	transition:0.5;
 }
